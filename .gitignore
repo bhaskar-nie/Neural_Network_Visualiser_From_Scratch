@@ -1,0 +1,67 @@
+# Node/React/Frontend
+node_modules/
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/coverage/
+/frontend/.DS_Store
+
+# Python/Flask/Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/backend/.env
+/backend/.venv
+/backend/env/
+/backend/venv/
+/backend/ENV/
+/backend/.python-version
+/backend/pip-log.txt
+/backend/pip-delete-this-directory.txt
+/backend/.coverage
+/backend/htmlcov/
+/backend/.tox/
+/backend/.nox/
+/backend/.hypothesis/
+/backend/.pytest_cache/
+/backend/coverage.xml
+/backend/*.cover
+/backend/instance/
+/backend/.webassets-cache
+
+# Local training sessions data
+/backend/static/sessions/*
+!/backend/static/sessions/.gitkeep
+
+# Saved models
+/backend/static/models/*
+!/backend/static/models/.gitkeep
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
