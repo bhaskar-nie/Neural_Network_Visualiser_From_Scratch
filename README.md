@@ -1,33 +1,19 @@
 # Neural Network Visualizer
-
-![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.x-3178C6?logo=typescript)
-![Flask](https://img.shields.io/badge/Flask-2.x-000000?logo=flask)
-![Python](https://img.shields.io/badge/Python-3.7+-3776AB?logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-1.20+-013243?logo=numpy)
-
 An interactive web application that visualizes the training and behavior of a neural network built from scratch using only NumPy. This educational tool helps you understand the inner workings of neural networks by providing real-time visualization of the training process.
-
-## 📷 Application Showcase
-
-<p align="center">
-  <img src="docs/images/main-screen.png" alt="Neural Network Visualizer Main Screen" width="800">
-  <br>
-  <em>Main application interface showing the neural network visualization</em>
-</p>
 
 ### Key Visualizations
 
-| Exploratory Data Analysis | Training Process | Decision Boundary |
-|:-------------------------:|:----------------:|:-----------------:|
-| ![EDA](docs/images/eda.png) | ![Training](docs/images/training.png) | ![Decision Boundary](docs/images/decision-boundary.png) |
-| *Dataset visualization with scatter plots and distributions* | *Neural network during training with weights and biases* | *Evolution of the decision boundary as model trains* |
+## Exploratory Data Analysis - Knowing our Dataset
+![EDA](https://github.com/user-attachments/assets/54ef564b-f9d8-4872-8384-084bef1d4d47)
 
-| Prediction Testing | Parameter Influence |
-|:------------------:|:-------------------:|
-| ![Prediction](docs/images/prediction.png) | ![Parameters](docs/images/parameters.png) |
-| *Testing the model with new inputs* | *How different parameters affect model performance* |
 
+## Training Process
+![Training](https://github.com/user-attachments/assets/f42e5ab7-8741-45d2-8332-ebdae6fa691e)
+![Training](https://github.com/user-attachments/assets/324d41d1-d263-4c82-9651-561719cf92d7)
+
+## Prediction Testing
+![Prediction](https://github.com/user-attachments/assets/c198cd1a-b3ef-4426-a854-ad75b9a5208a)
+![Prediction](https://github.com/user-attachments/assets/e20fe700-7573-42fe-9e88-7f5fa023b053)
 ## 🧠 Neural Network Architecture
 
 This project implements a feedforward neural network with the following architecture:
@@ -37,7 +23,7 @@ Input Layer (2 neurons) → Hidden Layer (2 neurons) → Output Layer (1 neuron)
 ```
 
 <p align="center">
-  <img src="docs/images/architecture.png" alt="2-2-1 Neural Network Architecture" width="600">
+  <img src="https://github.com/user-attachments/assets/2613c5e9-51b7-47aa-81f7-5d0828f63113" alt="2-2-1 Neural Network Architecture" width="600">
 </p>
 
 ### Technical Details
@@ -148,7 +134,7 @@ The dataset must be present in both the project root directory and the `backend/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/neural-network-visualizer.git
+   git clone https://github.com/bhaskar-nie/Neural_Network_Visualiser_From_Scratch.git
    cd neural-network-visualizer
    ```
 
@@ -188,29 +174,3 @@ The dataset must be present in both the project root directory and the `backend/
    ```
 
 3. Open your browser and navigate to `http://localhost:3000`
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👏 Acknowledgments
-
-- Neural network implementation from scratch using NumPy
-- Visualization techniques optimized for educational purposes
-
-## ⚠️ Troubleshooting
-
-### Dataset Not Found
-
-If you encounter "File not found" errors, ensure the dataset is in both required locations:
-1. The project root directory
-2. The backend/app directory
-
-You can copy the dataset file using:
-```bash
-# For Windows
-Copy-Item "placement-dataset.csv" -Destination "backend\app\"
-
-# For Linux/Mac
-cp placement-dataset.csv backend/app/
-``` 
